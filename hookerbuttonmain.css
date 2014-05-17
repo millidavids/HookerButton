@@ -1,0 +1,47 @@
+
+#title 
+{
+	font-family: Cursive;
+	text-align: center;
+	font-size: 75px;
+}
+
+
+button
+{
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	outline: none;
+	box-shadow: inset 0px -50px 1px rgba(0, 0, 0, 0.1);
+	font-family: Impact;
+	font-size: 75px;
+	margin: 0 auto;
+}
+
+
+.red {
+  	background-color: red;
+  	color: white;
+}
+
+
+.red:hover 
+{
+  	background-color: #ff4444;
+}
+
+
+.red:active
+{
+	box-shadow: inset 0px -400px 1px rgba(0, 0, 0, 0.1);
+	background-color: red;
+	color: #f1f1f1;
+}
+
+
+.centerwrapper
+{
+	text-align: center;
+	display: block;
+}
