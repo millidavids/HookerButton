@@ -1,2 +1,6 @@
-var sound = new Audio();
-sound.src = "hooker.mp3";
+function spammable(filename)
+{
+	var spam = new Audio();
+	spam.src = filename;
+	spam.play();
+}
